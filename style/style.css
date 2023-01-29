@@ -1,0 +1,70 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;500&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header design  */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF900E1A;
+}
+.ul{
+    display: flex;
+    
+    
+    
+}
+
+.ul li{
+    list-style: none;
+    margin-right: 22px;
+    
+}
+
+.ul a {
+    text-decoration: none;
+    margin: 0 19px;
+    color: #424242;
+    font-size: 18px;
+}
+
+
+/* Entered the main section  */
+
+.bottom_header{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: #FF900E1A;
+    text-align: center;
+
+
+}
+ .bottom_header h1{
+    font-size: 64px;
+    margin-bottom: 0;
+ }
+ .bottom_header p{
+    font-size: 18px;
+    color: #727272;
+    
+ }
+ .bottom_header button{
+    border: 1px;
+    background-color: #FF900E;
+     color: white;
+     padding: 16px 22px;
+     margin: 0 0 33px 0;
+     border-radius: 7px;
+ }
+.bottom_header img{
+    width: 1000px;
+    
+}
