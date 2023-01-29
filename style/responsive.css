@@ -1,0 +1,11 @@
+@media  screen and (max-width:688px) {
+    header, .ul{
+     flex-direction: column;
+        
+    }
+    .bottom_header img{
+        width: 100%;
+
+    }
+   
+}
