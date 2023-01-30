@@ -56,7 +56,7 @@ header{
     color: #727272;
     
  }
- .bottom_header button{
+ .bottom_header button, .teamtext button{
     border: 1px;
     background-color: #FF900E;
      color: white;
@@ -72,4 +72,43 @@ header{
 
 
 
+/* second section  */
+.imagegrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 22px auto;
+}
+.teamimg{
+      display: grid;
+      grid-template-columns: repeat( 2, 1fr);
+      gap:12px;
+      
+}
+.teamimg img{
+    width: 200px;
+}
+.color-1{
+    color: #727272;
+    font-size: 46px;
+}
+.color-2{
+    color: #131313;
+    font-size: 46px;
+}
+.teamtext h1{
+    color: #FF900E;
+    font-size: 46px;
+}
+.teamtext p{
+    color: #727272;
+    font-size: 16px;
+   
+}
+ 
+/* .bottom_header,header{
+    display: none;
+} */
 
+/* second section finished  */
