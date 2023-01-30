@@ -144,3 +144,16 @@ header{
     padding: 18px 23px;
     margin: 21px 0;
 }
+.experience{
+    border: 1px;
+    background-color: #FF900E;
+     color: white;
+     padding: 20px 22px;
+     margin: 0 0 33px 0;
+     border-radius: 7px;
+     position: relative;
+     font-size: 1.7em;
+     font-weight: bold;
+     top: 300px;
+     right: 360px;
+}
