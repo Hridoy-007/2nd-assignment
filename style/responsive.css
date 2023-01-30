@@ -19,9 +19,15 @@
    }
 
    /* feature section  */
-   .feature{
+   .feature  {
     flex-direction: column;
     align-items: center;
+   }
+   .facts{
+    flex-direction: column;
+    /* gap: 22px; */
+    align-items:center;
+    
    }
    .feature img{
     width: 100%;
@@ -34,4 +40,28 @@
     
     font-size: small;
    }
+   
+   /* extra part responsive 
+    */
+
+    .location{
+        flex-direction: column;
+    }
+    .location img{
+        width: 100%;
+        margin: 32px 0;
+    }
+
+
+
+    /* sponsor part responsive 
+    ---------------------------- */
+    .sponsor{
+        flex-direction: column;
+
+    }
+    .sponsorimg{
+        flex-direction: column;
+        gap: 60px 0;
+    }
 }
