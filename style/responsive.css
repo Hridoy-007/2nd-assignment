@@ -28,8 +28,9 @@
    }
    .experience{
     position: relative;
-    top: -120px;
-    right: 36px;
+    bottom: 162px;
+    left: 151px;
+
     
     font-size: small;
    }

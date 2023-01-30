@@ -148,12 +148,12 @@ header{
     border: 1px;
     background-color: #FF900E;
      color: white;
-     padding: 20px 22px;
+     padding: 20px 26px;
      margin: 0 0 33px 0;
      border-radius: 7px;
      position: relative;
      font-size: 1.7em;
      font-weight: bold;
-     top: 300px;
-     right: 360px;
+     left: 701px;
+     bottom: 350px;
 }
