@@ -112,3 +112,35 @@ header{
 } */
 
 /* second section finished  */
+
+
+/* feature section  */
+
+.feature{
+    display: flex;
+    justify-content: space-around;
+    gap: 33px;
+    margin: 82px 106px;
+    align-items: center;
+}
+ 
+.featureimg img{
+    width: 500px;
+}
+
+.featurelist h1 {
+    font-size: 50px;
+    border-left: 5px solid #FF900E;
+    padding-left: 30px;
+}
+
+.featurelist p{
+    color: #727272;
+    font-size: 15px;
+}
+.container {
+    
+    box-shadow: 0 5px 2px 0 rgb(0 0 0 / 6%), 0 3px 3px 0 rgb(0 0 0 / 29%);
+    padding: 18px 23px;
+    margin: 21px 0;
+}
